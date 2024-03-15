@@ -1,0 +1,36 @@
+% ----------------------------------------------------
+% Introduction
+% ----------------------------------------------------
+\documentclass[class=report,11pt,crop=false]{standalone}
+\input{../Style/ChapterStyle.tex}
+\input{../FrontMatter/Glossary.tex}
+\begin{document}
+% ----------------------------------------------------
+\chapter{Introduction}
+
+% ----------------------------------------------------
+
+\lipsum[1]
+
+\section{Background}
+
+
+\section{Objectives}
+
+
+\section{System Requirements}
+
+
+\section{Scope \& Limitations}
+
+
+\section{Report Outline}
+
+
+% ----------------------------------------------------
+\ifstandalone
+\bibliography{../Bibliography/References.bib}
+\printnoidxglossary[type=\acronymtype,nonumberlist]
+\fi
+\end{document}
+% ----------------------------------------------------
